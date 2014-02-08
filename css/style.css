@@ -1,0 +1,149 @@
+@font-face{
+	font-family:Miles;
+	src:url('AHundredMiles.ttf');
+}
+
+@font-face{
+	font-family:Stitch;
+	src:url('stitch.ttf');
+}
+
+@font-face{
+	font-family:Enchanted;
+	src:url('enchanted.ttf');
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url('numbers.jpg');
+	overflow-y: scroll;
+}
+
+header {
+	background-color: #000000;
+	border: 2px dashed #FFFFFF;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: Stitch;
+	font-size: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin-bottom: 15px;
+	opacity: 0.7;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#header {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#textFile {
+	color: #000000;
+	font-family: Miles;
+	font-size: 35px;
+	font-weight: bold;
+	height: 200px;
+	margin: auto;
+	margin-top: 10%;
+	text-align:  center;
+	width: 800px;
+}
+	
+	#textFile input {
+		font-family: Miles;
+		font-size: 25px;
+	}
+	
+.puzzle {
+	margin: auto;
+	text-align: center;
+	font-family: Miles;
+	font-size: 30px;
+}
+
+	.puzzle td{
+		background-color: #000000;
+		border: 1px solid #000000;
+		color: #FFFFFF;
+		height: 30px;
+		width: 30px;
+	}
+	
+.solveSudokuButton, .solveSudokuXButton, .solveSudokuYButton, .solveSudokuXYButton {
+	background-color: #FFFFFF;
+	border: 2px dashed #000000;
+	border-radius: 7px;
+	font-family: Miles;
+	font-size: 25px;
+	height: 40px;
+	margin-top: 10px;
+	width: 150px;
+	margin-left: 6%;
+	margin-right: 7%;
+}
+
+.solveSudokuButton:hover, .solveSudokuXButton:hover, .solveSudokuYButton:hover, .solveSudokuXYButton:hover {
+	opacity: 0.7;
+}
+
+.buttons {
+	width: 100%;
+}
+
+.sudokuSolutions {
+	background-color: #000000;
+	border: 2px dashed #FFFFFF;
+	border-radius: 5px;
+	color: #FFFFFF;
+	float: left;
+	font-family: Miles;
+	opacity: 0.8;
+	overflow-y: scroll;
+	text-align: center;
+	width: 98%;
+	height: 500px;
+	margin: 1%;
+}
+
+.solutions {
+	float: left;
+	font-family: Miles;
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+	.solutions td {
+		border: 1px solid #FFFFFF;
+		background-color: #FFFFFF;
+		color: #000000;
+		height: 25px;
+		width: 25px;
+	}
+	
+td.special {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.buttonList {
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	font-family: Miles;
+	font-size: 35px;
+	margin-bottom: 1%;
+	opacity: 0.7;
+	padding: 1%;
+	width: 100%;
+}
+
+#list0 {
+	margin-top: 3%;
+}
+
+.buttonList:hover {
+	opacity: 1;
+}
